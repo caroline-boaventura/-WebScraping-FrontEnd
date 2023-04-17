@@ -26,7 +26,7 @@ export default function Home() {
 
   const getProducts = () => {
     try {
-      fetch('http://localhost:3001/search', {
+      fetch('https://webscraping-backend-production.up.railway.app/search', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
