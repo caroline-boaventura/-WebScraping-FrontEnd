@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Bem-vindos ao Busca Livre - Front-End
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Contexto
 
-## Available Scripts
+Projeto full stack desenvolvido no processo seletivo da empresa [Lexart Labs](https://lexartlabs.com/).
 
-In the project directory, you can run:
+A proposta foi desenvolver um web scraping de produtos dos sites do Mercado Livre e Buscapé. 
 
-### `npm start`
+**Regras de negócio**
+- Através de um menu suspenso, o usuário pode escolher entre as categorias: celular, geladeira e tv.
+- Através de um menu suspenso, o usuário pode escolher entre os sites: Mercado Livre e Buscapé.
+- Deverá ter uma entrada de texto livre para buscar por outros produtos. 
+- A pesquisa deve trazer uma lista de produtos com foto, descrição, categoria, preço e site.
+- O resultado da busca por categoria deverá ser armazenado em um banco de dados.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instalando as dependências
+**Pré-requisitos para rodar o projeto**:
+  - NPM
 
-### `npm test`
+**Como instalar**
+  - Faça o clone do projeto com os comandos abaixo:
+      - `git clone git@github.com:caroline-boaventura/-WebScraping-FrontEnd.git`
+      - cd `-WebScraping-FrontEnd`
+      - Instale as dependências:
+          - `npm install`
+      - Execute o projeto:
+          - `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+:warning: Para a aplicação funcionar, você primeiro tem que baixar e executar o Back-End, ok?
 
-### `npm run build`
+[Repositório Back-End](https://github.com/caroline-boaventura/WebScraping-BackEnd)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Modo de desenvolvimento
+**Tecnologias utilizadas**
+  - React
+  - Material UI
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Próximos passos
+- Melhorar a estilização
+- Desenvolver testes
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contatos
+### Caroline Boaventura
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png" height=20px>      https://www.linkedin.com/in/caroline-boaventura/
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height=20px>      https://github.com/caroline-boaventura
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="https://logospng.org/download/gmail/logo-gmail-512.png" height=20px>      caroline.boaventura08@gmail.com
