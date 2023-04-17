@@ -1,6 +1,7 @@
 import { SelectChangeEvent } from '@mui/material';
 import { ChangeEvent, useState } from 'react';
 import Header from './header/header';
+import ProductsList from './products/products';
 import Search from './search/search';
 
 export default function Home() {
@@ -61,6 +62,7 @@ export default function Home() {
         site={site}
         category={category}
       />
+      <ProductsList loading={loading} error={error} products={products} />
     </>
   );
 }
